@@ -1,0 +1,11 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+.drum-pads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.drum-pad {
+  min-height: 30px;
+}
